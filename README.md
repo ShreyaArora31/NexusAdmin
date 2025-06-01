@@ -1,54 +1,65 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
->>>>>>> d72ebb8810ad521a152372fa600405a7fa7e8ab6
+# NexusAdmin - User Admin Dashboard
 
-## Getting Started
+A sleek, responsive admin dashboard built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
 
+- 📊 Dashboard analytics
+- 👥 User management
+- 📦 Product inventory
+- 🔐 Secure authentication
+- 🌙 Dark/Light mode
+- 🚀 Optimized performance
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) 14
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
+- **Authentication**: [NextAuth.js](https://next-auth.js.org/)
+- **Database**: [Prisma](https://www.prisma.io/) + PostgreSQL
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm 9+
+
+### Installation
 ```bash
+# Clone the repository
+git clone https://github.com/ShreyaArora31/NexusAdmin.git
+
+# Navigate to project
+cd NexusAdmin
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+Running the App
+bash
+# Development mode
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Build for production
+npm run build
 
-<<<<<<< HEAD
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Start production server
+npm start
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-=======
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
->>>>>>> d72ebb8810ad521a152372fa600405a7fa7e8ab6
+🤝 Contributing
+We welcome contributions! Please follow these steps:
 
-## Learn More
+Fork the project
 
-To learn more about Next.js, take a look at the following resources:
+Create your feature branch (git checkout -b feature/AmazingFeature)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Commit your changes (git commit -m 'Add some amazing feature')
 
-<<<<<<< HEAD
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-=======
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
->>>>>>> d72ebb8810ad521a152372fa600405a7fa7e8ab6
+Push to the branch (git push origin feature/AmazingFeature)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-<<<<<<< HEAD
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> d72ebb8810ad521a152372fa600405a7fa7e8ab6
+Open a Pull Request
