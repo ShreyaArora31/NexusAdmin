@@ -51,7 +51,7 @@ npm run build
 npm start
 
 
-🤝 Contributing
+#🤝 Contributing
 We welcome contributions! Please follow these steps:
 
 Fork the project
